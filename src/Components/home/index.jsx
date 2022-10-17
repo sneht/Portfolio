@@ -35,6 +35,7 @@ const Home = () => {
           <p>⚡ CSS</p>
           <p>⚡ JAVA SCRIPT</p>
           <p>⚡ REACT JS</p>
+          <p>⚡ Bootstrap</p>
         </div>
       </div>
       <Education />
