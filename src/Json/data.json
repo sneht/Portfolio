@@ -1,0 +1,70 @@
+[
+  {
+    "id": 1,
+    "name": "< Sneh />"
+  },
+  {
+    "id": 2,
+    "name": "Home"
+  },
+  {
+    "id": 3,
+    "name": "Education"
+  },
+  {
+    "id": 4,
+    "name": "Experience"
+  },
+  {
+    "id": 5,
+    "name": "Contact Me"
+  },
+  {
+    "id": 6,
+    "name": "Sneh Thakkar"
+  },
+  {
+    "id": 7,
+    "name": "A Front End Devloper"
+  },
+  {
+    "id": 8,
+    "name": "A person who always try to  gives his best in his work.",
+    "text":"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact."
+  },
+  {
+    "id": 9,
+    "img": "/image/pc.svg"
+  },
+  {
+    "id": 10,
+    "href": "https://www.instagram.com/snehthakkar",
+    "img": "/image/Instagram.png"
+  },
+  {
+    "id": 11,
+    "href": "https://www.facebook.com/sneh.thakkar.3232",
+    "img": "/image/Facebook.png"
+  },
+  {
+    "id": 12,
+    "href": "mailto:sneh.frontendarmy@gmail.com",
+    "img": "/image/Gmail.png"
+  },
+  {
+    "id": 13,
+    "img": "/image/tild3566-3038-4938-b739-316638343734__hinted-vector.png"
+  },
+  {
+      "id":14,
+      "img":"/image/Language-removebg-preview.jpg"
+  },
+  {
+    "id":15,
+    "img":"/image/Degree.jpg"
+  },
+  {
+    "id":16,
+    "img":"/image/Welcome2.jpg"
+  }
+]

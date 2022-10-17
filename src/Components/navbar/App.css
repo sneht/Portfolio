@@ -1,0 +1,25 @@
+
+
+.header:hover {
+  background-color: rgba(15, 233, 226, 0.623);
+}
+.navbar {
+  background-color: rgb(230, 239, 243);
+}
+
+.sign {
+  font-size: 40px;
+  text-align: left;
+  font-family: Brush Script MT;
+  text-decoration: none;
+}
+.sign:hover{
+  text-decoration: none;
+}
+.namesign {
+  margin-top: 15%;
+  color: black;
+  font-size: 90px;
+  font-family: Brush Script MT;
+  text-align: center;
+}

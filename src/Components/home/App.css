@@ -1,0 +1,156 @@
+.aboutme{
+    margin-left: 45px;
+    font-size: 20px;
+    width: 90%;
+}
+.felogo{
+    margin-top: 5%;
+    height: 300px;
+    width: 530px;
+}
+.text_d{
+    display: flex;
+}
+.imgdiv{
+    display: flex;
+}
+
+.hcs{
+    
+    margin-left: 8%;
+    width: 300px;
+}
+.hcss{
+    width: 300px;
+}
+.banner{ 
+    margin-top: 5%;
+}
+.logos{
+    height: 170px;
+    width: 500px;
+}
+.work{
+    margin-left: 40%;
+    font-size: 50px;
+}
+.skills{
+    margin-top: 10%;
+    font-size: 20px;
+}
+.field{
+    margin-top: -25%;
+    margin-left: 57%;
+    font-size: 40px;
+}
+.footer{
+    margin-top: 40%;
+    text-align: center;
+}
+
+
+@media (max-width:375px){
+    .aboutme{
+        margin-left: 14px;
+        width: 273px;
+    }
+    .text_d{
+        display: grid;
+    }
+    .felogo{
+        width: 390px;
+    }
+    .work{
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 50px;
+    }
+    .logos{
+        height: 170px;
+        width: 500px;
+    }
+    .imgdiv{
+        display: grid;
+    }
+    .img_{
+        display: grid;
+    }
+}
+
+@media (max-width:600px){
+    .aboutme{
+        margin-left: 14px;
+        width: 273px;
+    }
+    .text_d{
+        display: grid;
+    }
+    .felogo{
+        width: 390px;
+    }
+    .work{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 50px;
+    }
+    .logos{
+        height: 170px;
+        width: 500px;
+    }
+    .imgdiv{
+        display: grid;
+    }
+    .img_{
+        display: grid;
+    }
+}
+
+@media (max-width:900px){
+    .aboutme{
+        margin-left: 14px;
+        width: 273px;
+    }
+    .felogo{
+        width: 390px;
+    }
+    .work{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 50px;
+    }
+    .logos{
+        height: 170px;
+        width: 500px;
+    }
+    .img_{
+        display: grid;
+    }
+    .skills{
+        margin-top: 11%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1200px){
+    .aboutme{
+        margin-left: 14px;
+        width: 273px;
+    }
+    .felogo{
+        width: 390px;
+    }
+    .work{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 50px;
+    }
+    .logos{
+        height: 170px;
+        width: 500px;
+    }
+    .skills{
+        margin-left: 8%;
+        margin-top: 15%;
+        font-size: 20px;
+    }
+}
