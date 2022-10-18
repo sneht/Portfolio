@@ -8,7 +8,7 @@ const Navbar = () => {
   const [color, changeColor] = useState("#e6eff3");
   document.body.style.backgroundColor = color;
   return (
-    <nav className="navbar navbar-expand-lg navbar-light  ">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
       <Linkk to="/sign" className="sign" onClick={() => changeColor("#e6ef3")}>
         {JsonFile[0].name}
       </Linkk>
@@ -23,46 +23,41 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-
+      
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item active">
             <Link
-              className="header nav-item nav-link text-primary"
+              className="header nav-item nav-link "
               to="main"
-              smooth={true}
-              duration={900}
             >
               {JsonFile[1].name}{" "}
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item active">
             <Link
-              className="header nav-item nav-link text-primary"
+              className="header nav-item nav-link "
               to="education"
-              smooth={true}
-              duration={900}
+              
             >
               {JsonFile[2].name}
             </Link>
           </li>
-          <li className="nav-item ">
+          <li className="nav-item active">
             <Link
-              className="header nav-item nav-link text-primary"
+              className="header nav-item nav-link "
               to="experience"
-              smooth={true}
-              duration={800}
+              
             >
               {" "}
               {JsonFile[3].name}{" "}
             </Link>
           </li>
-          <li className="nav-item">
+          <li className="nav-item active">
             <Link
-              className="header nav-item nav-link text-primary"
+              className="header nav-item nav-link "
               to="#"
-              smooth={true}
-              duration={800}
+              
             >
               {JsonFile[4].name}
             </Link>

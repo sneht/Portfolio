@@ -1,9 +1,20 @@
 .Conatact{
-    font-size:40px;
+    font-size:20px;
     margin-top: 40%;
     text-align: center;
+    color: aliceblue;
+    /* margin-bottom: 15%; */
 }
-
+.headoff{
+    color: black;
+    font-size: 30px;
+}
+/* .footer{
+    font-size:20px;
+    margin-top: 40%;
+    text-align: center;
+    background-color: #b5b3b3;
+} */
 .ig{
     margin-top: 1%;
     margin-bottom: 15%;

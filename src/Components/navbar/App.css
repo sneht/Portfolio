@@ -1,7 +1,6 @@
-
-
 .header:hover {
   background-color: rgba(15, 233, 226, 0.623);
+  border-radius: 50%;
 }
 .navbar {
   background-color: rgb(230, 239, 243);

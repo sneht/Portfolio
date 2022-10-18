@@ -53,7 +53,7 @@
   },
   {
     "id": 13,
-    "img": "/image/tild3566-3038-4938-b739-316638343734__hinted-vector.png"
+    "img": "/image/API_graphic_72_530x340_B.png"
   },
   {
       "id":14,
@@ -66,5 +66,13 @@
   {
     "id":16,
     "img":"/image/Welcome2.jpg"
+  },
+  {
+    "id":17,
+    "href":"tel: + 91 79843 41366"
+  },
+  {
+    "id":18,
+    "href":"tel: + 91 87350 14676"
   }
 ]

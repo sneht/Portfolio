@@ -6,12 +6,14 @@ const Education = () => {
   return (
     <div className="Main_edu" id="education">
       <p className="edu">Education</p>
-      <div className="education">
       <div>
+        <p>Education</p>
+      <div className="education">
         <img src={JsonFile[14].img} alt="" className="logoo"></img>
       </div>
       <div className="basic">
         <p>Basic Qualification</p>
+        <p>College</p>
         <p>Diploma CE</p>
       </div>
       </div>

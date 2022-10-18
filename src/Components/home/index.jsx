@@ -4,14 +4,13 @@ import "../home/App.css";
 import JsonFile from "../../Json/data.json";
 import Welcome from "../Welcome";
 import Education from "../Education/Index";
-import Conatact from "../Contact Me/Index";
 import Experience from "../Experience/Index";
 
 const Home = () => {
   return (
     <div className="Main" id="main">
       <div className="text_d">
-      <div >
+      <div>
       <Welcome />
       <p className="aboutme">{JsonFile[7].name}</p>
       <p className="aboutme">{JsonFile[7].text}</p>
@@ -33,15 +32,13 @@ const Home = () => {
         <div className="skills">
           <p>⚡ HTML</p>
           <p>⚡ CSS</p>
+          <p>⚡ Bootstrap</p>
           <p>⚡ JAVA SCRIPT</p>
           <p>⚡ REACT JS</p>
-          <p>⚡ Bootstrap</p>
         </div>
       </div>
       <Education />
       <Experience />
-      <Conatact />
-      {/* <p className="footer"> Made with ❤️ by Sneh Thakkar</p> */}
     </div>
   );
 };
