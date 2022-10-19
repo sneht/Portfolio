@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./Contact.css";
 import JsonFile from "../../Json/data.json";
 
 const Conatact = () => {
@@ -18,7 +18,7 @@ const Conatact = () => {
 
     // </div>
 
-    <div className="Conatact" id="#">
+    <div className="Conatact">
       <p className="headoff">Contact Me!!</p>
 <footer className="text-center text-lg-start  text-muted" >
   <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" >

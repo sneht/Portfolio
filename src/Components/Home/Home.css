@@ -1,7 +1,12 @@
 .aboutme{
-    margin-left: 45px;
     font-size: 20px;
     width: 78%;
+}
+.Welcome{
+    margin-top: 7%;
+    font-size: 20px;
+    margin-left: 5%;
+    display: grid;
 }
 .felogo{
     margin-top: 5%;

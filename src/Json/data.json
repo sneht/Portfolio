@@ -1,78 +1,76 @@
 [
   {
-    "id": 1,
     "name": "< Sneh />"
   },
   {
-    "id": 2,
     "name": "Home"
   },
   {
-    "id": 3,
     "name": "Education"
   },
   {
-    "id": 4,
     "name": "Experience"
   },
   {
-    "id": 5,
     "name": "Contact Me"
   },
   {
-    "id": 6,
     "name": "Sneh Thakkar"
   },
   {
-    "id": 7,
     "name": "A Front End Devloper"
   },
   {
-    "id": 8,
     "name": "A person who always try to  gives his best in his work.",
-    "text":"A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact."
+    "text": "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact."
   },
   {
-    "id": 9,
     "img": "/image/pc.svg"
   },
   {
-    "id": 10,
     "href": "https://www.instagram.com/snehthakkar",
     "img": "/image/Instagram.png"
   },
   {
-    "id": 11,
     "href": "https://www.facebook.com/sneh.thakkar.3232",
     "img": "/image/Facebook.png"
   },
   {
-    "id": 12,
     "href": "mailto:sneh.frontendarmy@gmail.com",
     "img": "/image/Gmail.png"
   },
   {
-    "id": 13,
     "img": "/image/API_graphic_72_530x340_B.png"
   },
   {
-      "id":14,
-      "img":"/image/Language-removebg-preview.jpg"
+    "img": "/image/Language-removebg-preview.jpg"
   },
   {
-    "id":15,
-    "img":"/image/Degree.jpg"
+    "img": "/image/Degree.jpg"
   },
   {
-    "id":16,
-    "img":"/image/Welcome2.jpg"
+    "img": "/image/Welcome2.jpg"
   },
   {
-    "id":17,
-    "href":"tel: + 91 79843 41366"
+    "href": "tel: + 91 79843 41366"
   },
   {
-    "id":18,
-    "href":"tel: + 91 87350 14676"
+    "href": "tel: + 91 87350 14676"
+  },
+  {
+    "name": "Hello 👋"
+  },
+  {
+    "name": "I am Sneh Thakkar"
+  },
+  {
+    "name": "I am Front-end Devloper"
+  },
+  {
+    "name": "What I Do?"
+  },
+  {
+    "L1": "⚡ HTML",
+    "L2": "⚡ CSS"
   }
 ]
