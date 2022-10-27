@@ -1,42 +1,45 @@
 import React from "react";
 import "./Home.css";
-import JsonFile from "../../Json/data.json";
+import JsonFilee from "../../Json/data2.json";
 
 const Home = () => {
   return (
-    <div className="Main" id="main">
+    <div className="Main" >
       <div className="text_d">
-          <div className="Welcome">
-            <p>{JsonFile[18].name}</p>
-            <p> {JsonFile[19].name}</p>
-            <p>{JsonFile[20].name}</p>
-          <p className="aboutme">{JsonFile[7].name}</p>
-          <p className="aboutme">{JsonFile[7].text}</p>
+        <div className="Welcome">
+          <p>{JsonFilee.home.head}</p>
+          <p> {JsonFilee.home.name}</p>
+          <p>{JsonFilee.home.about}</p>
+          <p className="aboutme">{JsonFilee.home.quote}</p>
+          <p className="aboutme">{JsonFilee.home.text}</p>
         </div>
         <div className="banner">
-          <img src={JsonFile[8].img} alt="" className="felogo"></img>
+          <img src={JsonFilee.home.img} alt="" className="felogo"></img>
         </div>
       </div>
       <div className="img_">
-        <p className="work">{JsonFile[21].name}</p>
+        <p className="work">{JsonFilee.home.WID}</p>
         <div className="imgdiv">
           <div className="logos">
-            <img src={JsonFile[12].img} className="hcs" alt=""></img>
+            <img src={JsonFilee.home.img2} className="hcs" alt=""></img>
           </div>
           <div className="logos">
-            <img src={JsonFile[13].img} className="hcss" alt=""></img>
+            <img src={JsonFilee.home.img3} className="hcss" alt=""></img>
           </div>
         </div>
         <div className="skills">
-          <p>{JsonFile[22].L1}</p>
-          <p></p>
-          <p>⚡ Bootstrap</p>
-          <p>⚡ JAVA SCRIPT</p>
-          <p>⚡ REACT JS</p>
+          <p>{JsonFilee.home.HTML}</p>
+          <p>{JsonFilee.home.CSS}</p>
+          <p>{JsonFilee.home.BOOTSTRAP}</p>
+          <p>{JsonFilee.home.JS}</p>
+          <p>{JsonFilee.home.RJ}</p>
         </div>
       </div>
-      <div className="education">
+      <div className="Education">
+        
       </div>
+      <div>
+  </div>
     </div>
   );
 };

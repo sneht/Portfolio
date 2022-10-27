@@ -51,8 +51,10 @@
 }
 
 
-
 @media (max-width:375px){
+    .Main{
+        margin-top: 30%;
+    }
     .aboutme{
         text-align: center;
     }

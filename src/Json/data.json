@@ -71,6 +71,30 @@
   },
   {
     "L1": "⚡ HTML",
-    "L2": "⚡ CSS"
+    "L2": "⚡ CSS",
+    "L3":"⚡ Bootstrap",
+    "L4":"⚡ JAVA SCRIPT",
+    "L5":"⚡ REACT JS"
+  },
+  {
+    "title":"Education"
+  },
+  {
+    "title":"School:",
+    "date":"2019",
+    "name":"KB,Radhanpur"
+  },
+  {
+    "title":"College:",
+    "date":"2022",
+    "name":"Alpha College Of Engineering & Technology,Khatraj."
+  },
+  {
+    "title":"Course:",
+    "Course":"Diploma CE"
+  },
+  {
+    "title":"Job:",
+    "name":"FrontEnd Army"
   }
 ]

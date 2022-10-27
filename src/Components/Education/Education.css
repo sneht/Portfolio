@@ -22,6 +22,7 @@
 }
 
 @media (max-width:375px){
+
     .education{
         display: grid;
     }

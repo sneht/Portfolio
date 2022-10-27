@@ -9,3 +9,8 @@
     height: 400px;
     width: 400px;
 }
+@media (max-width:375px){
+.Skillspro{
+    margin-top: 20%;
+}
+}

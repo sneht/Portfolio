@@ -15,14 +15,11 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      
-      <Route path="/" element={<> <Navbar/> <Home/> <Education/> <Skills/> <Experience/>  <Conatact /> </>} />
-      <Route path="/sign" element={<><Sign/>  </>}  />
-      
+      <Route path="/" element={<><Sign/>  </>}  /> 
+      <Route path="/ " element={<> <Navbar/> <Home/> <Education/> <Skills/> <Experience/>  <Conatact /> </>} />
     </Routes>
     </BrowserRouter>
     </>
   );
-}
-
+  }
 export default App;
