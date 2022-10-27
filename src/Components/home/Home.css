@@ -1,7 +1,12 @@
 .aboutme{
-    margin-left: 45px;
     font-size: 20px;
-    width: 90%;
+    width: 78%;
+}
+.Welcome{
+    margin-top: 7%;
+    font-size: 20px;
+    margin-left: 5%;
+    display: grid;
 }
 .felogo{
     margin-top: 5%;
@@ -14,13 +19,13 @@
 .imgdiv{
     display: flex;
 }
-
 .hcs{
-    
     margin-left: 8%;
     width: 300px;
 }
 .hcss{
+    margin-left: 7%;
+    margin-top: 7%;
     width: 300px;
 }
 .banner{ 
@@ -35,6 +40,7 @@
     font-size: 50px;
 }
 .skills{
+    margin-left: 5%;
     margin-top: 10%;
     font-size: 20px;
 }
@@ -43,16 +49,14 @@
     margin-left: 57%;
     font-size: 40px;
 }
-.footer{
-    margin-top: 40%;
-    text-align: center;
-}
 
 
 @media (max-width:375px){
+    .Main{
+        margin-top: 30%;
+    }
     .aboutme{
-        margin-left: 14px;
-        width: 273px;
+        text-align: center;
     }
     .text_d{
         display: grid;
@@ -75,12 +79,15 @@
     .img_{
         display: grid;
     }
+    .skills{
+        margin-top: 30%;
+        text-align: center;
+    }
 }
 
 @media (max-width:600px){
     .aboutme{
-        margin-left: 14px;
-        width: 273px;
+        text-align: center;
     }
     .text_d{
         display: grid;
@@ -103,13 +110,13 @@
     .img_{
         display: grid;
     }
+    .skills{
+        margin-top: 30%;
+        margin-right: 20%;
+    }
 }
 
 @media (max-width:900px){
-    .aboutme{
-        margin-left: 14px;
-        width: 273px;
-    }
     .felogo{
         width: 390px;
     }
@@ -125,17 +132,17 @@
     .img_{
         display: grid;
     }
-    .skills{
+    /* .skills{
         margin-top: 11%;
         font-size: 20px;
-    }
+    } */
 }
 
 @media (max-width:1200px){
-    .aboutme{
+    /* .aboutme{
         margin-left: 14px;
         width: 273px;
-    }
+    } */
     .felogo{
         width: 390px;
     }
@@ -148,9 +155,9 @@
         height: 170px;
         width: 500px;
     }
-    .skills{
+    /* .skills{
         margin-left: 8%;
-        margin-top: 15%;
+        margin-top: 34%;
         font-size: 20px;
-    }
+    } */
 }

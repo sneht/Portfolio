@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { Link as Linkk } from "react-router-dom";
-import "./App.css";
-import JsonFile from "./../../Json/data.json";
+import "./Navbar.css";
+import JsonFilee from "../../Json/data2.json";
 
 const Navbar = () => {
   const [color, changeColor] = useState("#e6eff3");
   document.body.style.backgroundColor = color;
   return (
-    <nav className="navbar navbar-expand-lg navbar-light  ">
-      <Linkk to="/sign" className="sign" onClick={() => changeColor("#e6ef3")}>
-        {JsonFile[0].name}
+    <>
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top ">
+      <Linkk to="/" className="sign" onClick={() => changeColor("#e6ef3")}>
+        {JsonFilee.navbar.logo}
       </Linkk>
       <button
         className="navbar-toggler"
@@ -23,53 +24,22 @@ const Navbar = () => {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
-          <li className="nav-item active">
-            <Link
-              className="header nav-item nav-link text-primary"
-              to="main"
-              smooth={true}
-              duration={900}
-            >
-              {JsonFile[1].name}{" "}
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              className="header nav-item nav-link text-primary"
-              to="education"
-              smooth={true}
-              duration={900}
-            >
-              {JsonFile[2].name}
-            </Link>
-          </li>
-          <li className="nav-item ">
-            <Link
-              className="header nav-item nav-link text-primary"
-              to="experience"
-              smooth={true}
-              duration={800}
-            >
-              {" "}
-              {JsonFile[3].name}{" "}
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              className="header nav-item nav-link text-primary"
-              to="#"
-              smooth={true}
-              duration={800}
-            >
-              {JsonFile[4].name}
-            </Link>
-          </li>
+          {JsonFilee.navbar.head.map((a, i) => (
+            <li className="nav-item active" key={i}>
+              <Link key={i} className="header nav-item nav-link " to={a.title}>
+                {a.title}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
+      <div>
+      </div>
     </nav>
+    <div id="Home"></div>
+    </>
   );
 };
 export default Navbar;

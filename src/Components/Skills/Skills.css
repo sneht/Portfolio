@@ -1,0 +1,16 @@
+.Skillspro{
+    margin-top:6% ;
+}
+.Second_d{
+    font-size: 40px;
+    text-align: center;
+}
+.Donut{
+    height: 400px;
+    width: 400px;
+}
+@media (max-width:375px){
+.Skillspro{
+    margin-top: 20%;
+}
+}

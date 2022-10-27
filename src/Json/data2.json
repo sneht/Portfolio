@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "logo": "< Sneh />",
+    "name":"Sneh Thakkar",
+    "head":[
+    {"title": "Home"},
+    {"title": "Education"},
+    {"title":"Skills"},
+    {"title":"Experience"},
+    {"title":"Contact Me"}
+    ]
+  },
+  "home":{
+      "head":"Hello 👋",
+      "name": "I am Sneh Thakkar",
+      "about": "I am Front-end Devloper",
+      "quote": "A person who always try to  gives his best in his work.",
+      "text": "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+      "img": "/image/pc.svg",
+      "WID": "What I Do?",
+      "img2": "/image/API_graphic_72_530x340_B.png",
+      "img3": "/image/Language-removebg-preview.jpg",
+      "HTML": "⚡ HTML",
+      "CSS": "⚡ CSS",
+      "BOOTSTRAP":"⚡ Bootstrap",
+      "JS":"⚡ JAVA SCRIPT",
+      "RJ":"⚡ REACT JS"
+  },
+  "education":{
+    "head":"Education",
+    "title":"School:",
+    "date":"2019",
+    "name":"KB,Radhanpur",
+    "title2":"College:",
+    "date2":"2022",
+    "name2":"Alpha College Of Engineering & Technology,Khatraj.",
+    "title3":"Course:",
+    "Course":"Diploma CE",
+    "title4":"Job:",
+    "name4":"FrontEnd Army"
+  },
+  "skills":{
+      "HTML":"Html",
+      "CSS":"Css",
+      "JS":"Js",
+      "RJ":"React Js",
+      "BS":"BootStrap"
+  },
+  "experience":{
+      "head":"Experience",
+      "number":"150+",
+      "pc":"Project Completed",
+      "number2":"150+",
+      "hc":"Happy Clients",
+      "number3":"50",
+      "trophy":"Trophy"
+  },
+  "contact":{
+      "head":"Contact Me!!",
+      "title":"Get connected with us on social networks:",
+      "fb":"https://www.facebook.com/sneh.thakkar.3232",
+      "twitter":"https://twitter.com/snehThakkar19",
+      "gmail":"mailto:sneh.frontendarmy@gmail.com",
+      "ig":"https://www.instagram.com/snehthakkar",
+      "github":"https://github.com/sneht/Portfolio",
+      "title1":"Company name",
+      "name":"FrontEnd Army",
+      "head2":"Products",
+      "sub1":"HTML",
+      "sub2":"CSS",
+      "sub3":"JAVA SCRIPT",
+      "sub4":"REACT JS",
+      "ul":"Useful Links",
+      "text":"Pricing",
+      "disc":"Settings",
+      "text2":"Orders",
+      "text3":"Help",
+      "head3":"Contact",
+      "loc":"Ahmedabad,Gujarat,India",
+      "email":"sneh.frontendarmy@gmail.com",
+      "number":"+91 79843 41366",
+      "number2":"+91 87350 14676",
+      "href": "tel: + 91 79843 41366",
+      "href2": "tel: + 91 87350 14676"
+
+  }
+}
+
+
