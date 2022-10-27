@@ -4,7 +4,7 @@ import JsonFilee from "../../Json/data2.json";
 
 const Home = () => {
   return (
-    <div className="Main" >
+    <div className="Main">
       <div className="text_d">
         <div className="Welcome">
           <p>{JsonFilee.home.head}</p>
@@ -35,11 +35,7 @@ const Home = () => {
           <p>{JsonFilee.home.RJ}</p>
         </div>
       </div>
-      <div className="Education">
-        
-      </div>
-      <div>
-  </div>
+      <div className="Education"></div>
     </div>
   );
 };

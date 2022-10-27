@@ -34,81 +34,80 @@ const Conatact = () => {
           </div>
         </div>
 
-          <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3 text-secondary"></i>
-                  {JsonFilee.contact.title1}
-                </h6>
-                <p>{JsonFilee.contact.name}</p>
-              </div>
+        <div className="container text-center text-md-start mt-5">
+          <div className="row mt-3">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                <i className="fas fa-gem me-3 text-secondary"></i>
+                {JsonFilee.contact.title1}
+              </h6>
+              <p>{JsonFilee.contact.name}</p>
+            </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  {JsonFilee.contact.head2}
-                </h6>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub1}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub2}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub3}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub4}</p>
-                </div>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                {JsonFilee.contact.head2}
+              </h6>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.sub1}</p>
               </div>
-
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  {JsonFilee.contact.ul}
-                </h6>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.text}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.disc}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.text2}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.text3}</p>
-                </div>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.sub2}</p>
               </div>
-
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  {JsonFilee.contact.head3}
-                </h6>
-                <p>
-                  <i className="fas fa-home me-3 text-secondary"></i>{" "}
-                  {JsonFilee.contact.loc}
-                </p>
-                <p>
-                  <i className="fas fa-envelope me-3 text-secondary"></i>
-                  {JsonFilee.contact.email}
-                </p>
-                <a href={JsonFilee.contact.href}>
-                  <i className="fas fa-phone me-3 text-secondary">
-                    {JsonFilee.contact.number}
-                  </i>
-                </a>
-                <a href={JsonFilee.contact.href2}>
-                  <i className="fas fa-phone me-3 text-secondary">
-                    {JsonFilee.contact.number2}
-                  </i>
-                </a>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.sub3}</p>
+              </div>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.sub4}</p>
               </div>
             </div>
-          
+
+            <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                {JsonFilee.contact.ul}
+              </h6>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.text}</p>
+              </div>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.disc}</p>
+              </div>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.text2}</p>
+              </div>
+              <div>
+                <p className="text-reset">{JsonFilee.contact.text3}</p>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 className="text-uppercase fw-bold mb-4">
+                {JsonFilee.contact.head3}
+              </h6>
+              <p>
+                <i className="fas fa-home me-3 text-secondary"></i>{" "}
+                {JsonFilee.contact.loc}
+              </p>
+              <p>
+                <i className="fas fa-envelope me-3 text-secondary"></i>
+                {JsonFilee.contact.email}
+              </p>
+              <a href={JsonFilee.contact.href}>
+                <i className="fas fa-phone me-3 text-secondary">
+                  {JsonFilee.contact.number}
+                </i>
+              </a>
+              <a href={JsonFilee.contact.href2}>
+                <i className="fas fa-phone me-3 text-secondary">
+                  {JsonFilee.contact.number2}
+                </i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div style={{ marginTop: "70px", }} />
-    <ScrollToTop smooth  style={{backgroundColor:"#bd00ff",}}/>
+      <div style={{ marginTop: "70px" }} />
+      <ScrollToTop smooth style={{ backgroundColor: "#bd00ff",borderRadius:"20px" }} />
     </div>
   );
 };
