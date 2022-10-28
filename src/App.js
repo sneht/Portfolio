@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Index"
 import { BrowserRouter } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
-import Home from './Components/Home/Index';
+import Home from './Components/Home/index';
 import Conatact from './Components/ContactMe/Index';
 import Sign from './Components/Navbar/sign';
 import Education from './Components/Education/Index';
