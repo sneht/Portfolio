@@ -14,10 +14,10 @@ const Conatact = () => {
           </div>
           <div>
             <a href={JsonFilee.contact.fb} className="me-4 link-secondary">
-              <i className=" bi-envelope-fill"></i>
+              <i className="bi bi-facebook"></i>
             </a>
             <a href={JsonFilee.contact.twitter} className="me-4 link-secondary">
-              <i className="bi-envelope-fill"></i>
+              <i className="fab fa-twitter"></i>
             </a>
             <a href={JsonFilee.contact.gmail} className="me-4 link-secondary">
               <i className="bi-envelope-fill"></i>
