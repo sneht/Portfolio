@@ -20,7 +20,7 @@ const Conatact = () => {
               <i className="fab fa-twitter"></i>
             </a>
             <a href={JsonFilee.contact.gmail} className="me-4 link-secondary">
-              <i className="bi-envelope-fill"></i>
+              {/* <i className="bi-envelope-fill"></i> */}
             </a>
             <a href={JsonFilee.contact.ig} className="me-4 link-secondary">
               <i className="fab fa-instagram"></i>
@@ -93,7 +93,7 @@ const Conatact = () => {
                 {JsonFilee.contact.email}
               </p>
               <a href={JsonFilee.contact.href}>
-                <i className="bi bi-telephone me-3 text-secondary">
+                <i className="fas fa-phone me-3 text-secondary">
                   {JsonFilee.contact.number}
                 </i>
               </a>
