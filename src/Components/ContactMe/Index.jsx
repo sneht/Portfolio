@@ -17,10 +17,10 @@ const Conatact = () => {
               <i className="fab fa-facebook-f"></i>
             </a>
             <a href={JsonFilee.contact.twitter} className="me-4 link-secondary">
-              <i className="bi bi-twitter"></i>
+              <i className="fab fa-twitter"></i>
             </a>
             <a href={JsonFilee.contact.gmail} className="me-4 link-secondary">
-              <i className="bi-envelope-fill"></i>
+              {/* <i className="bi-envelope-fill"></i> */}
             </a>
             <a href={JsonFilee.contact.ig} className="me-4 link-secondary">
               <i className="fab fa-instagram"></i>
