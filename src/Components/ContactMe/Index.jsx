@@ -107,7 +107,7 @@ const Conatact = () => {
         </div>
       </div>
       <div style={{ marginTop: "70px" }} />
-      <ScrollToTop smooth style={{ backgroundColor: "#bd00ff" }} />
+      <ScrollToTop smooth style={{ backgroundColor: "#bd00ff",borderRadius:"20px" }} />
     </div>
   );
 };
