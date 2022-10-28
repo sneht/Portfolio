@@ -14,7 +14,7 @@ const Conatact = () => {
           </div>
           <div>
             <a href={JsonFilee.contact.fb} className="me-4 link-secondary">
-              <i className="fab fa-facebook-f"></i>
+              <i className="bi-facebook"></i>
             </a>
             <a href={JsonFilee.contact.twitter} className="me-4 link-secondary">
               <i className="fab fa-twitter"></i>
