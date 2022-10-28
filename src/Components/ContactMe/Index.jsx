@@ -93,7 +93,7 @@ const Conatact = () => {
                 {JsonFilee.contact.email}
               </p>
               <a href={JsonFilee.contact.href}>
-                <i className="fas fa-phone me-3 text-secondary">
+                <i className="bi bi-telephone me-3 text-secondary">
                   {JsonFilee.contact.number}
                 </i>
               </a>
