@@ -7,7 +7,7 @@
     {"title": "Education"},
     {"title":"Skills"},
     {"title":"Experience"},
-    {"title":"Contact Me"}
+    {"title":"contact"}
     ]
   },
   "home":{
@@ -81,8 +81,7 @@
       "number":"+91 79843 41366",
       "number2":"+91 87350 14676",
       "href": "tel: + 91 79843 41366",
-      "href2": "tel: + 91 87350 14676"
-
+      "href2":"tel: + 91 87350 14676"
   }
 }
 

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@makotot/ghostui": "^2.0.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -25,6 +26,7 @@
     "react-scroll-to-top": "^3.0.0",
     "react-social-icons": "^5.15.0",
     "react-vertical-timeline-component": "^3.5.2",
+    "react-waypoint": "^10.3.0",
     "styled-components": "^5.3.6",
     "typewriter-effect": "^2.19.0",
     "vertical-timeline-reactjs": "^1.0.7",

@@ -1,5 +1,6 @@
 .Skillspro{
-    margin-top:6% ;
+    margin-top:6%;
+    height: 560px;
 }
 .Second_d{
     font-size: 40px;
@@ -9,6 +10,7 @@
     height: 400px;
     width: 400px;
 }
+
 @media (max-width:375px){
 .Skillspro{
     margin-top: 20%;

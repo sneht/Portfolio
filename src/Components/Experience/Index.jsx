@@ -7,7 +7,9 @@ import JsonFilee from "../../Json/data2.json";
 
 const Experience = () => {
   return (
-    <div className="MainExp">
+    <>
+    <div id="Experience" ></div>
+    <div className="MainExp" >
       <div className="Welcomee">
         <p>{JsonFilee.experience.head}</p>
       </div>
@@ -34,8 +36,8 @@ const Experience = () => {
           <p className="experi">{JsonFilee.experience.trophy} </p>
         </div>
       </div>
-      <div id="Contact Me"></div>
     </div>
+    </>
   );
 };
 export default Experience;

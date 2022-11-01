@@ -5,6 +5,8 @@ import ScrollToTop from "react-scroll-to-top";
 
 const Conatact = () => {
   return (
+    <>
+    <div  id="contact"></div>
     <div className="Conatact">
       <p className="headoff">{JsonFilee.contact.head}</p>
       <div className="text-center text-lg-start  text-muted">
@@ -85,12 +87,10 @@ const Conatact = () => {
                 {JsonFilee.contact.head3}
               </h6>
               <p>
-                <i className="fas fa-home me-3 text-secondary"></i>{" "}
-                {JsonFilee.contact.loc}
+                <i className="fas fa-home me-3 text-secondary mr-1" style={{marginRight:"5%"}}>{JsonFilee.contact.loc}</i>
               </p>
               <p>
-                <i className="fas fa-envelope me-3 text-secondary"></i>
-                {JsonFilee.contact.email}
+                <i className="fas fa-envelope me-3 text-secondary" style={{marginRight:"5%"}}>{JsonFilee.contact.email}</i>
               </p>
               <a href={JsonFilee.contact.href}>
                 <i className="fas fa-phone me-3 text-secondary">
@@ -109,6 +109,7 @@ const Conatact = () => {
       <div style={{ marginTop: "70px" }} />
       <ScrollToTop smooth style={{ backgroundColor: "#bd00ff",borderRadius:"20px" }} />
     </div>
+    </>
   );
 };
 export default Conatact;
