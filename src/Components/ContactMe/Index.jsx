@@ -7,6 +7,7 @@ import { emailRegex } from "../../helper";
 import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../../font.js";
 
 const Conatact = () => {
   AOS.init();
