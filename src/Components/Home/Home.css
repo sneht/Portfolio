@@ -1,100 +1,105 @@
-.aboutme{
-    font-size: 20px;
-    width: 78%;
+.Main {
+  /* background-image: url("/public/image/pexels-pixabay-355770.jpg"); */
+  /* background-size: cover; */
+  height: 650px;
+  background: #f6f6c9;
 }
-.Welcome{
-    margin-top: 7%;
-    font-size: 20px;
-    margin-left: 5%;
-    display: grid;
+.aboutme {
+  font-size: 20px;
+  width: 78%;
 }
-.felogo{
-    margin-top: 5%;
-    height: 300px;
-    width: 530px;
+.Welcome {
+  margin-top: 7%;
+  font-size: 20px;
+  margin-left: 5%;
+  display: grid;
 }
-.text_d{
-    display: flex;
+.felogo {
+  margin-top: 5%;
+  height: 300px;
+  width: 530px;
 }
-.imgdiv{
-    display: flex;
+.text_d {
+  display: flex;
 }
-.hcs{
+.imgdiv {
+  display: flex;
+}
+/* .hcs{
     margin-left: 8%;
     width: 300px;
-}
-.hcss{
+} */
+/* .hcss{
     margin-left: 7%;
     width: 300px;
+} */
+.banner {
+  margin-top: 5%;
 }
-.banner{ 
-    margin-top: 5%;
+.logos {
+  height: 170px;
+  width: 500px;
 }
-.logos{
-    height: 170px;
-    width: 500px;
+.work {
+  margin-left: 40%;
+  font-size: 50px;
 }
-.work{
-    margin-left: 40%;
-    font-size: 50px;
-}
-.skills{
+/* .skills{
     margin-left: 5%;
     margin-top: 10%;
     font-size: 20px;
-}
-.field{
-    margin-top: -25%;
-    margin-left: 57%;
-    font-size: 40px;
+} */
+.field {
+  margin-top: -25%;
+  margin-left: 57%;
+  font-size: 40px;
 }
 
-
-@media (max-width:375px){
-    .Main{
-        margin-top: 30%;
-    }
-    .aboutme{
-        text-align: center;
-    }
-    .text_d{
-        display: grid;
-    }
-    .felogo{
-        width: 390px;
-    }
-    .work{
+@media (max-width: 375px) {
+  /* .Main{ */
+  /* margin-top: 30%;
+    } */
+  .aboutme {
+    text-align: center;
+  }
+  .text_d {
+    display: grid;
+  }
+  .felogo {
+    width: 390px;
+  }
+  /* .work{
         margin-top: 10%;
         margin-left: 5%;
         font-size: 50px;
-    }
-    .logos{
+    } */
+  /* .logos{
         height: 170px;
         width: 500px;
-    }
-    .imgdiv{
+    } */
+  /* .imgdiv{
         display: grid;
-    }
-    .img_{
+    } */
+  /* .img_{
         display: grid;
-    }
-    .skills{
+    } */
+  /* .skills{
         margin-top: 30%;
         text-align: center;
-    }
+    } */
 }
 
-@media (max-width:600px){
-    .aboutme{
-        text-align: center;
-    }
-    .text_d{
-        display: grid;
-    }
-    .felogo{
-        width: 390px;
-    }
-    .work{
+@media (max-width: 600px) {
+  .aboutme {
+    text-align: center;
+  }
+  .text_d {
+    display: grid;
+  }
+  .felogo {
+    width: 390px;
+  }
+  /* .work{
         margin-top: 10%;
         margin-left: 10%;
         font-size: 50px;
@@ -112,40 +117,40 @@
     .skills{
         margin-top: 30%;
         margin-right: 20%;
-    }
+    } */
 }
 
-@media (max-width:900px){
-    .felogo{
-        width: 390px;
-    }
-    .work{
+@media (max-width: 900px) {
+  .felogo {
+    width: 390px;
+  }
+  /* .work{
         margin-top: 10%;
         margin-left: 10%;
         font-size: 50px;
-    }
-    .logos{
+    } */
+  /* .logos{
         height: 170px;
         width: 500px;
     }
     .img_{
         display: grid;
-    }
-    /* .skills{
+    } */
+  /* .skills{
         margin-top: 11%;
         font-size: 20px;
     } */
 }
 
-@media (max-width:1200px){
-    /* .aboutme{
+@media (max-width: 1200px) {
+  /* .aboutme{
         margin-left: 14px;
         width: 273px;
     } */
-    .felogo{
-        width: 390px;
-    }
-    .work{
+  .felogo {
+    width: 390px;
+  }
+  /* .work{
         margin-top: 10%;
         margin-left: 10%;
         font-size: 50px;
@@ -153,8 +158,8 @@
     .logos{
         height: 170px;
         width: 500px;
-    }
-    /* .skills{
+    } */
+  /* .skills{
         margin-left: 8%;
         margin-top: 34%;
         font-size: 20px;

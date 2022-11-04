@@ -1,5 +1,11 @@
-
+.Main_edu{
+    background-color: #BAD1C2;
+}
 .educationn{
+    text-align: center;
+}
+.Welcomeee{
+    font-size: 40px;
     text-align: center;
 }
 .text_dd{
@@ -36,7 +42,10 @@
     }
 }
 
-@media (max-width:414px){
+@media (max-width:600px){
+    .Main_edu{
+        margin-top: 50%;
+    }
     .education{
         display: grid;
     }

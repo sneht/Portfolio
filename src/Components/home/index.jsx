@@ -1,11 +1,12 @@
 import React from "react";
-import "./Home.css";
+import "./Home.css"
 import JsonFilee from "../../Json/data2.json";
 
 const Home = () => {
   return (
     <>
-      <div className="Main" id="Home">
+    <div id="Home"></div>
+      <div className="Main">
         <div className="text_d">
           <div className="Welcome">
             <p>{JsonFilee.home.head}</p>
@@ -18,7 +19,7 @@ const Home = () => {
             <img src={JsonFilee.home.img} alt="" className="felogo"></img>
           </div>
         </div>
-        <div className="img_">
+        {/* <div className="img_">
           <p className="work">{JsonFilee.home.WID}</p>
           <div className="imgdiv">
             <div className="logos">
@@ -35,7 +36,7 @@ const Home = () => {
             <p>{JsonFilee.home.JS}</p>
             <p>{JsonFilee.home.RJ}</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

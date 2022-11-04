@@ -6,7 +6,7 @@
     {"title": "Home"},
     {"title": "Education"},
     {"title":"Skills"},
-    {"title":"Experience"},
+    {"title":"Blog"},
     {"title":"contact"}
     ]
   },
@@ -46,14 +46,14 @@
       "RJ":"React Js",
       "BS":"BootStrap"
   },
-  "experience":{
-      "head":"Experience",
-      "number":"150+",
-      "pc":"Project Completed",
-      "number2":"150+",
-      "hc":"Happy Clients",
-      "number3":"50",
-      "trophy":"Trophy"
+  "blog":{
+    "head":"Blog",
+      "JS":"JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of  websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.",
+      "React":"React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+      "Python":"Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming",
+      "HTML":" The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.",
+      "Bootstrap":"Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.",
+      "CSS":"Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
   },
   "contact":{
       "head":"Contact Me!!",
@@ -61,6 +61,7 @@
       "fb":"https://www.facebook.com/sneh.thakkar.3232",
       "twitter":"https://twitter.com/snehThakkar19",
       "gmail":"mailto:sneh.frontendarmy@gmail.com",
+      "map":"https://goo.gl/maps/8HAEVG5kyQv5vb48A",
       "ig":"https://www.instagram.com/snehthakkar",
       "github":"https://github.com/sneht/Portfolio",
       "title1":"Company name",
@@ -70,18 +71,16 @@
       "sub2":"CSS",
       "sub3":"JAVA SCRIPT",
       "sub4":"REACT JS",
-      "ul":"Useful Links",
-      "text":"Pricing",
-      "disc":"Settings",
-      "text2":"Orders",
-      "text3":"Help",
       "head3":"Contact",
       "loc":"Ahmedabad,Gujarat,India",
       "email":"sneh.frontendarmy@gmail.com",
       "number":"+91 79843 41366",
       "number2":"+91 87350 14676",
       "href": "tel: + 91 79843 41366",
-      "href2":"tel: + 91 87350 14676"
+      "href2":"tel: + 91 87350 14676",
+      "text":"If you have any work for me or any types of quries related to my tutorial, you can send me message from here.It's my pleasure to help you.",
+      "head4":"Send us a message",
+      "button":"Send Now"
   }
 }
 

@@ -14,7 +14,7 @@ const Education = () => {
     <>
       <div id="Education"></div>
       <div className="Main_edu">
-        <div className="Welcomee">
+        <div className="Welcomeee">
           <p>{JsonFilee.education.head}</p>
         </div>
         <div>

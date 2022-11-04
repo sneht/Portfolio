@@ -1,16 +1,16 @@
-// import React, { useEffect } from "react";
-// import { useNavigate } from "react-router";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router";
 import Typewriter from "typewriter-effect";
 import JsonFilee from "../../Json/data2.json";
 
 const Sign = () => {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     navigate("/ ");
-  //   }, 3000);
-  // });
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("/ ");
+    }, 3000);
+  });
 
   return (
     <div className="namesign  w3-container  w3-animate-zoom ">
