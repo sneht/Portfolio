@@ -25,6 +25,7 @@ const Navbar = (props) => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style={{marginTop:"25px"}}
         >
           <span className="navbar-toggler-icon"></span>
         </button>

@@ -126,7 +126,7 @@ const Conatact = () => {
                   {JsonFilee.contact.title1}
                 </h6>
                 <p>
-                  <a href="https://g.page/FrontendArmy?share" className="me-4 text-black text-decoration-none">
+                  <a href={JsonFilee.contact.link} className="me-4 text-black text-decoration-none">
                   {JsonFilee.contact.name}
                   </a>
                   </p>
