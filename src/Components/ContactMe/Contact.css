@@ -85,9 +85,10 @@
   color: #3e2093;
 }
 .right-side .input-box{
-  height: 50px;
+  height: 64px;
   width: 100%;
   margin: 12px 0;
+  margin-bottom: 0px;
 }
 .right-side .input-box input,
 .right-side .input-box textarea{
@@ -104,9 +105,9 @@
 .submit{
     width: 5%;
 }
-.right-side .message-box{
+/* .right-side .message-box{
   min-height: 110px;
-}
+} */
 .right-side .input-box textarea{
   padding-top: 6px;
 }
