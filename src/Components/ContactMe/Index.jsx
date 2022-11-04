@@ -158,7 +158,7 @@ const Conatact = () => {
                 <p>
                   <a href={JsonFilee.contact.map} >
                   <i
-                    className="fas fa-home me-3 text-black mr-1"
+                    className="fas fa-home me-3 text-black mr-1 text-decoration-none"
                     style={{ marginRight: "5%" }}
                   >
                     {JsonFilee.contact.loc}
