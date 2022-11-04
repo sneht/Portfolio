@@ -1,12 +1,12 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Index";
-import Home from "./Components/Home/index";
+import Home from "./Components/Home/Index";
 import Conatact from "./Components/ContactMe/Index";
 // import Sign from "./Components/Navbar/sign";
 import Experience from "./Components/Blog/Index";
 import Education from "./Components/Education/Index";
 import Skills from "./Components/Skills/Index";
-import { useOnScreen } from "./Components/hook/hooks";
+import { useOnScreen } from "./Components/Hook/hooks";
 import { useRef } from "react";
 
 function App() {

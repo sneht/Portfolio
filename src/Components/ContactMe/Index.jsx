@@ -9,7 +9,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Conatact = () => {
-
   AOS.init();
   const [name, setname] = useState("");
   const [nameError, setnameError] = useState(false);
@@ -92,7 +91,7 @@ const Conatact = () => {
             </div>
             <div>
               <a href={JsonFilee.contact.fb} className="me-4 link-secondary">
-                <i className="bi bi-facebook"></i>
+                <i className="fab fa-facebook"></i>
               </a>
               <a
                 href={JsonFilee.contact.twitter}

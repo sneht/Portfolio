@@ -6,7 +6,10 @@
     user-select: none;
     background-color: #e6eff3;
 }
-
+.numberr{
+  display: grid;
+  text-decoration: none;
+}
 .headoff{
     color: black;
     font-size: 30px;
