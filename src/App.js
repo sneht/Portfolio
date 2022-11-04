@@ -23,7 +23,7 @@ function App() {
   const expActive = useOnScreen(expeRef, "-324px");
 
   const contactRef = useRef();
-  const contactActive = useOnScreen(contactRef, "-324px");
+  const contactActive = useOnScreen(contactRef, "-320px");
 
   return (
     <>
