@@ -24,7 +24,7 @@ function App() {
   const BlogActive = useOnScreen(BlogRef, "-50%");
 
   const contactRef = useRef();
-  const contactActive = useOnScreen(contactRef, "-50%");
+  const contactActive = useOnScreen(contactRef, "-49%");
 
   return (
     <>
@@ -37,7 +37,7 @@ function App() {
               { title: "Education", active: eduActive },
               { title: "Skills", active: SkillsActive },
               { title: "Blog", active: BlogActive },
-              { title: "contact", active: contactActive },
+              { title: "Contact", active: contactActive },
             ]}
           />
           <div ref={homeRef}>

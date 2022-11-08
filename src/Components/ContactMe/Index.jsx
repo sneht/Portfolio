@@ -80,7 +80,7 @@ const Conatact = () => {
 
   return (
     <>
-      <div id="contact"></div>
+      <div id="Contact"></div>
       <div className="Conatact">
         <div data-aos="fade-right">
           <p className="headoff">{JsonFilee.contact.head}</p>
@@ -120,7 +120,7 @@ const Conatact = () => {
 
           <div className="containerr text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-2 ml-4">
+              <div className="comp col-md-3 col-lg-4 col-xl-2 ml-4">
                 <h6 className="text-uppercase fw-bold mb-4">
                   <i className="fas fa-gem me-3 text-black"></i>
                   {JsonFilee.contact.title1}

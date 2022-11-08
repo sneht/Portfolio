@@ -184,7 +184,7 @@
 }
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 930px) {
 
   .contact_p{
     display: flow-root;
@@ -192,5 +192,17 @@
   }
   .row{
     justify-content: center;
+  }
+}
+
+@media screen and (max-width:1030px) {
+  .row{
+    justify-content: center;
+  }
+  .comp {
+    width: 20.333333%;
+  }
+  .containere{
+    width: 50%;
   }
 }
