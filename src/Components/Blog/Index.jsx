@@ -55,6 +55,7 @@ const Experience = () => {
                 spaceBetween: 50,
               },
             }}
+            style={{padding:"0"}}
           >
             <SwiperSlide>
               <div className="main_card">
