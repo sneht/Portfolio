@@ -61,38 +61,39 @@
 }
 .container .card .face.face1 .java {
   background-color: #fffc00;
+  font-family: "Inter", sans-serif;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .container .card .face.face1 .react {
+  font-family: "Inter", sans-serif;
   background-color: #fffc00;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .container .card .face.face1 .python {
+  font-family: "Inter", sans-serif;
   background-color: #fffc00;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.container .card .face.face1 .cSharp {
+.container .card .face.face1 .html {
+  font-family: "Inter", sans-serif;
   background-color: #fffc00;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .container .card .face.face1 .bootstrap {
+  font-family: "Inter", sans-serif;
   background-color: #fffc00;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .container .card .face.face1 .css {
-  background-color: #fffc00;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.container .card .face.face1 .css {
+  font-family: "Inter", sans-serif;
   background-color: #fffc00;
   background-clip: text;
   -webkit-text-fill-color: transparent;

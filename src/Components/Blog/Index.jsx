@@ -63,8 +63,8 @@ const Experience = () => {
                     <div className="face face1">
                       <div className="content">
                         <span className="stars"></span>
-                        <h2 className="react">Java Script</h2>
-                        <p className="react">{JsonFilee.blog.JS}</p>
+                        <h2 className="java">Java Script</h2>
+                        <p className="java">{JsonFilee.blog.JS}</p>
                       </div>
                     </div>
                     <div className="face face2">
@@ -99,8 +99,8 @@ const Experience = () => {
                     <div className="face face1">
                       <div className="content">
                         <span className="stars"></span>
-                        <h2 className="react">Python</h2>
-                        <p className="react">{JsonFilee.blog.Python}</p>
+                        <h2 className="python">Python</h2>
+                        <p className="python">{JsonFilee.blog.Python}</p>
                       </div>
                     </div>
                     <div className="face face2">
@@ -117,8 +117,8 @@ const Experience = () => {
                     <div className="face face1">
                       <div className="content">
                         <span className="stars"></span>
-                        <h2 className="react">HTML</h2>
-                        <p className="react">{JsonFilee.blog.HTML}</p>
+                        <h2 className="html">HTML</h2>
+                        <p className="html">{JsonFilee.blog.HTML}</p>
                       </div>
                     </div>
                     <div className="face face2">
@@ -135,8 +135,8 @@ const Experience = () => {
                     <div className="face face1">
                       <div className="content">
                         <span className="stars"></span>
-                        <h2 className="react">CSS</h2>
-                        <p className="react">{JsonFilee.blog.CSS}</p>
+                        <h2 className="css">CSS</h2>
+                        <p className="css">{JsonFilee.blog.CSS}</p>
                       </div>
                     </div>
                     <div className="face face2">
@@ -153,8 +153,8 @@ const Experience = () => {
                     <div className="face face1">
                       <div className="content">
                         <span className="stars"></span>
-                        <h2 className="react">Bootstrap</h2>
-                        <p className="react">{JsonFilee.blog.Bootstrap}</p>
+                        <h2 className="bootstrap">Bootstrap</h2>
+                        <p className="bootstrap">{JsonFilee.blog.Bootstrap}</p>
                       </div>
                     </div>
                     <div className="face face2">
