@@ -64,9 +64,9 @@ const Conatact = () => {
 
       axios
         .post("https://6362595e7521369cd06b38a2.mockapi.io/portfolio", {
-          Name: name,
-          Email: email,
-          Message: message,
+          Name: name.trim(),
+          Email: email.trim(),
+          Message: message.trim(),
         })
         .then((response) => {
           setLoading(false);
@@ -82,8 +82,8 @@ const Conatact = () => {
     <>
       <div id="contact"></div>
       <div className="Conatact">
-      <div data-aos="fade-right">
-        <p className="headoff">{JsonFilee.contact.head}</p>
+        <div data-aos="fade-right">
+          <p className="headoff">{JsonFilee.contact.head}</p>
         </div>
         <div className="text-center text-lg-start  text-black">
           <div className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -120,19 +120,22 @@ const Conatact = () => {
 
           <div className="containerr text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div className="col-md-3 col-lg-4 col-xl-2 ml-4">
                 <h6 className="text-uppercase fw-bold mb-4">
                   <i className="fas fa-gem me-3 text-black"></i>
                   {JsonFilee.contact.title1}
                 </h6>
                 <p>
-                  <a href={JsonFilee.contact.link} className="me-4 text-black text-decoration-none">
-                  {JsonFilee.contact.name}
+                  <a
+                    href={JsonFilee.contact.link}
+                    className="me-4 text-black text-decoration-none"
+                  >
+                    {JsonFilee.contact.name}
                   </a>
-                  </p>
+                </p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              {/* <div className="col-md-2 col-lg-2 col-xl-2">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {JsonFilee.contact.head2}
                 </h6>
@@ -148,104 +151,120 @@ const Conatact = () => {
                 <div>
                   <p className="text-reset">{JsonFilee.contact.sub4}</p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {JsonFilee.contact.head3}
                 </h6>
-                <p>
-                  <a href={JsonFilee.contact.map} >
-                  <i
-                    className="fas fa-home me-3 text-black mr-1 text-decoration-none"
-                    style={{ marginRight: "5%" }}
+                <p style={{ fontSize: "18px" }}>
+                  <a
+                    href={JsonFilee.contact.map}
+                    className="text-black text-decoration-none"
                   >
+                    <i
+                      className="fas fa-home me-3 text-black mr-1 text-decoration-none"
+                      style={{ marginRight: "5%" }}
+                    />
                     {JsonFilee.contact.loc}
-                  </i>
                   </a>
                 </p>
-                <p>
-                <a href={JsonFilee.contact.gmail} className="me-4 link-secondary">
-                  <i
-                    className="fas fa-envelope me-3 text-black"
-                    style={{ marginRight: "5%" }}
+                <p style={{ fontSize: "18px" }}>
+                  <a
+                    href={JsonFilee.contact.gmail}
+                    className="me-4 link-secondary text-decoration-none text-black"
+                    style={{}}
                   >
+                    <i
+                      className="fas fa-envelope me-3 text-black"
+                      style={{ marginRight: "5%" }}
+                    />
                     {JsonFilee.contact.email}
-                  </i>
-                </a>
+                  </a>
                 </p>
-                <a href={JsonFilee.contact.href}>
-                  <i className="fas fa-phone me-3 text-black">
-                    {JsonFilee.contact.number}
-                  </i>
-                </a>
-                <a href={JsonFilee.contact.href2}>
-                  <i className="fas fa-phone me-3 text-black">
-                    {JsonFilee.contact.number2}
-                  </i>
-                </a>
-              </div>
 
-              <div className="containere" style={{background:"#e6eff3"}}>
+                <div style={{display:"grid"}}> 
+                <a href={JsonFilee.contact.href} className="text-black text-decoration-none">
+                  <i className="fas fa-phone me-3 text-black"/>
+                    {JsonFilee.contact.number}
+                </a>
+                <a href={JsonFilee.contact.href2} className="text-black text-decoration-none">
+                  <i className="fas fa-phone me-3 text-black"/>
+                    {JsonFilee.contact.number2}
+                </a>
+                </div>
+              </div>
+              
+              <div className="containere" style={{ background: "#e6eff3", width: "55%" }}>
                 <div className="contentt">
                   <div className="right-side">
-                    <div className="topic-text text-black">{JsonFilee.contact.head4}</div>
-                    <p className="text-black" style={{color:"black"}}>
-                      {JsonFilee.contact.text}
-                    </p>
-                    <form onSubmit={submitValue}>
-                      <div className="input-box">
-                        <input
-                          type="text"
-                          placeholder="Enter your name"
-                          value={name}
-                          onChange={(e) =>
-                            [setname(e.target.value),(setnameError(""))]
-                          }
-                        />
-                      </div>
-                      <div className="error">{nameError}</div>
-                      <div className="input-box">
-                        <input
-                          type="email"
-                          placeholder="Enter your email"
-                          value={email}
-                          onChange={(e) =>
-                            [setEmail(e.target.value),(setEmailError(""))]
-                          }
-                        />
-                      </div>
-                      <div className="error">{emailError}</div>
+                    <div className="topic-text text-black">
+                      {JsonFilee.contact.head4}
+                    </div>
+                    <div className="contact_p" style={{ width: "100%" }}>
+                      <p
+                        className="text-black"
+                        style={{ color: "black", width: "100%" }}
+                      >
+                        {JsonFilee.contact.text}
+                      </p>
 
-                      <div className="input-box message-box">
-                        <textarea
-                          placeholder="Enter Message"
-                          id="message"
-                          value={message}
-                          onChange={(e) =>
-                            [setMessage(e.target.value),(setMessageError(""))]
-                          }
-                        />
-                      </div>
-                      <div className="error">{messageError}</div>
+                      <form onSubmit={submitValue} style={{ width: "100%" }}>
+                        <div className="input-box">
+                          <input
+                            type="text"
+                            placeholder="Enter your name"
+                            value={name}
+                            onChange={(e) => [
+                              setname(e.target.value),
+                              setnameError(""),
+                            ]}
+                          />
+                        </div>
+                        <div className="error">{nameError}</div>
+                        <div className="input-box">
+                          <input
+                            type="email"
+                            placeholder="Enter your email"
+                            value={email}
+                            onChange={(e) => [
+                              setEmail(e.target.value),
+                              setEmailError(""),
+                            ]}
+                          />
+                        </div>
+                        <div className="error">{emailError}</div>
 
-                      <div className="button">
-                        <button
-                          type="button"
-                          onClick={submitValue}
-                        >
-                          {JsonFilee.contact.button}
-                          {loading && <i className="spinner-border text-primary"></i>}
-                        </button>
-                      </div>
-                    </form>
+                        <div className="input-box message-box">
+                          <textarea
+                            placeholder="Enter Message"
+                            id="message"
+                            value={message}
+                            onChange={(e) => [
+                              setMessage(e.target.value),
+                              setMessageError(""),
+                            ]}
+                          />
+                        </div>
+                        <div className="error">{messageError}</div>
+
+                        <div className="button">
+                          <button type="button" onClick={submitValue}>
+                            {JsonFilee.contact.button}
+                            {loading && (
+                              <i className="spinner-border text-primary"></i>
+                            )}
+                          </button>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div  />
+        <div />
         <ScrollToTop
           smooth
           style={{ backgroundColor: "cadetblue", borderRadius: "10px" }}

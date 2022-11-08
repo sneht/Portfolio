@@ -1,19 +1,24 @@
-import { useState,useEffect } from "react"
-export function useOnScreen(ref,rootMargin) {
+import { useState, useEffect, useMemo } from "react";
+export function useOnScreen(ref, rootMargin) {
+  const [isIntersecting, setIntersecting] = useState(false);
 
-    const [isIntersecting, setIntersecting] = useState(false)
-  
-    const observer = new IntersectionObserver(
-      ([entry]) =>{
-        setIntersecting(entry.isIntersecting)
-      } ,{rootMargin}
-    )
+  const observer = useMemo(
+    () =>
+      new IntersectionObserver(
+        ([entry]) => {
+          setIntersecting(entry.isIntersecting);
+        },
+        { rootMargin }
+      ),
+    [rootMargin]
+  );
 
-    useEffect(() => {
-      observer.observe(ref.current)
+  useEffect(() => {
+    observer.observe(ref.current);
+    return () => {
+      observer.disconnect();
+    };
+  }, [ref, observer]);
 
-      return () => { observer.disconnect() }
-    }, [])
-  
-    return isIntersecting
+  return isIntersecting;
 }

@@ -3,6 +3,7 @@
   /* background-size: cover; */
   height: 650px;
   background: #f6f6c9;
+  font-family: 'Inter', sans-serif;
 }
 .aboutme {
   font-size: 20px;
@@ -56,9 +57,7 @@
 }
 
 @media (max-width: 375px) {
-  /* .Main{ */
-  /* margin-top: 30%;
-    } */
+   
   .aboutme {
     text-align: center;
   }
@@ -90,6 +89,9 @@
 }
 
 @media (max-width: 600px) {
+  .Main{
+    height: 770px;
+   }
   .aboutme {
     text-align: center;
   }
