@@ -11,6 +11,8 @@ export function useOnScreen(ref, rootMargin) {
         { rootMargin }
       ),
     [rootMargin]
+
+    
   );
 
   useEffect(() => {
