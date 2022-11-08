@@ -180,15 +180,7 @@
   border-radius: 15px;
 }
 
-@media screen and (max-width: 385px) {
-  .main_card {
-    margin-left: 54%;
-  }
-  .container .card{
-	width: 228px;
-    height: 370px;
-  }
-}
+
 
 @media screen and (max-width: 830px) {
   .main_card {
@@ -201,4 +193,12 @@
         height: 370px;
       }
 }
-
+@media screen and (max-width: 385px) {
+  .main_card {
+    margin-left: 54%;
+  }
+  .container .card{
+	width: 228px;
+    height: 370px;
+  }
+}

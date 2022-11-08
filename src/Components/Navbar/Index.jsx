@@ -6,18 +6,10 @@ import JsonFilee from "../../Json/data2.json";
 
 const Navbar = (props) => {
   const { payload } = props;
-  
   console.log(payload);
-
-  // const [color] = useState("#e6eff3");
-
-  // document.body.style.backgroundColor = color;
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-transparent" style={{paddingBottom:"inherit"}}>
-        {/* <Link className="sign">
-          {JsonFilee.navbar.logo}
-        </Link> */}
 
         <button
           className="navbar-toggler"
