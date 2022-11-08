@@ -5,7 +5,7 @@ const Skills = () => {
     <>
        <div id="Skills"></div>
        <div className="Main_skills">
-       <p className="Second_d">Skills</p>
+       <p className="Second_d" data-aos="fade-right">Skills</p>
       <div className="skillss">
       <div className="htmlProg ProgWidth">
         <div className="p">

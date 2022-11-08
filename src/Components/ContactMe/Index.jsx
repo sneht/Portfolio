@@ -134,25 +134,7 @@ const Conatact = () => {
                   </a>
                 </p>
               </div>
-
-              {/* <div className="col-md-2 col-lg-2 col-xl-2">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  {JsonFilee.contact.head2}
-                </h6>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub1}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub2}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub3}</p>
-                </div>
-                <div>
-                  <p className="text-reset">{JsonFilee.contact.sub4}</p>
-                </div>
-              </div> */}
-
+              
               <div className="col-md-4 col-lg-3 col-xl-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {JsonFilee.contact.head3}

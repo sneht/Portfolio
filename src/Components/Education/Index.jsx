@@ -14,7 +14,7 @@ const Education = () => {
     <>
       <div id="Education"></div>
       <div className="Main_edu">
-        <div className="Welcomeee">
+        <div className="Welcomeee" data-aos="fade-right">
           <p>{JsonFilee.education.head}</p>
         </div>
         <div>
