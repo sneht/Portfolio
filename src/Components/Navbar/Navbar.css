@@ -2,11 +2,7 @@
   background-color: rgba(15, 233, 226, 0.623);
   border-radius: 30px 0px 0px 30px;
 }
-/* .navbar:hover a{
-  transform:scale(1.5);
-  opacity:0.2;
-  filter:blur(5px);
-} */
+
 .navbar-expand-lg .navbar-collapse {
   padding-right: 0px;
   overflow-y: clip;
@@ -25,20 +21,9 @@
   background-color: rgba(15, 233, 226, 0.623);
   border-radius: 30px 0px 0px 30px;
 }
+
 .navbar-toggler {
   margin-left: 86%;
-}
-/* .active{
-  background-color: red;
-} */
-.sign {
-  font-size: 40px;
-  text-align: left;
-  font-family: "Inter", sans-serif;
-  text-decoration: none;
-}
-.sign:hover {
-  text-decoration: none;
 }
 .logo {
   display: grid;
@@ -48,7 +33,7 @@
   height: 110vh;
   color: black;
   font-size: 90px;
-  font-family: "Inter", sans-serif;
+  font-family: "Bodoni MT Poster";
   justify-content: center;
   align-items: center;
   display: flex;
@@ -61,11 +46,3 @@
   background-color: cadetblue;
   border-radius: 30px 0px 0px 30px;
 }
-
-/* @media (max-width: 400px) {
-  .namesign{
-    height: 900px;
-  }
-  
-
-} */
