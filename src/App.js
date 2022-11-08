@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Index";
-import Home from "./Components/Home/Index";
+import Home from "./Components/Home/index";
 import Conatact from "./Components/ContactMe/Index";
 import Sign from "./Components/Navbar/sign";
 import Experience from "./Components/Blog/Index";
