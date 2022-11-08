@@ -6,7 +6,7 @@ import Sign from "./Components/Navbar/sign";
 import Experience from "./Components/Blog/Index";
 import Education from "./Components/Education/Index";
 import Skills from "./Components/Skills/Index";
-import { useOnScreen } from "./Components/Hook/hooks";
+import { useOnScreen } from "./Components/hook/hooks";
 import { useRef } from "react";
 import React from "react";
 
