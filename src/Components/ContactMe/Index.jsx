@@ -247,7 +247,6 @@ const Conatact = () => {
                           />
                         </div>
                         <div className="error">{messageError}</div>
-
                         <div className="button">
                           <button type="button" onClick={submitValue}>
                             {JsonFilee.contact.button}
