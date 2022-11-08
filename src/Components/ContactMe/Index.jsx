@@ -198,7 +198,7 @@ const Conatact = () => {
               <div className="containere" style={{ background: "#e6eff3", width: "55%" }}>
                 <div className="contentt">
                   <div className="right-side">
-                    <div className="topic-text text-black">
+                    <div className="topic-text text-black mb-2">
                       {JsonFilee.contact.head4}
                     </div>
                     <div className="contact_p" style={{ width: "100%" }}>
