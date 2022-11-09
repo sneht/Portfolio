@@ -25,10 +25,10 @@ const Navbar = (props) => {
         </button>
         <div className="collapse navbar-collapse justify-content-end mr-1 " id="navbarSupportedContent">
           <ul className="navbar-nav" >
-            {JsonFilee.navbar.head.map((a, index) => (
+            {JsonFilee.navbar.head.map((item, index) => (
               <li
                 className={
-                  payload[index].title === a.title && payload[index].active
+                  payload[index].title === item.title && payload[index].active
                     ? "nav-item active"
                     : "nav-item"
                 }
@@ -37,9 +37,9 @@ const Navbar = (props) => {
                 <Link
                   className="header nav-link"
                   activeClass="active"
-                  to={a.title}
+                  to={item.title}
                 >
-                  {a.title}
+                  {item.title}
                 </Link>
               </li>
             ))}
