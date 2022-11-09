@@ -177,14 +177,14 @@ const Conatact = () => {
                     href={JsonFilee.contact.href}
                     className="text-black text-decoration-none"
                   >
-                    <i className="fa fa-phone me-3 text-black" />
+                    <i className="bi bi-telephone me-3 text-black" />
                     {JsonFilee.contact.number}
                   </a>
                   <a
                     href={JsonFilee.contact.href2}
                     className="text-black text-decoration-none"
                   >
-                    <i className="fa fa-phone me-3 text-black" />
+                    <i className="bi bi-telephone me-3 text-black" />
                     {JsonFilee.contact.number2}
                   </a>
                 </div>
