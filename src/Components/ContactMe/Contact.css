@@ -177,15 +177,19 @@
  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 .contact_p{
   display: flow-root;
   justify-content: center;
+  width: 80%;
+}
+.containere .contentt .right-side{
+  width: 100%;
+  margin-left: 0;
 }
 }
 
 @media screen and (max-width: 930px) {
-
   .contact_p{
     display: flow-root;
     justify-content: center;
@@ -197,7 +201,6 @@
 
 @media screen and (max-width:1030px) {
   .row{
-    /* --bs-gutter-x: -0.5rem; */
     justify-content: center;
   }
   .comp {

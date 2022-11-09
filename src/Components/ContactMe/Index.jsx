@@ -90,7 +90,7 @@ const Conatact = () => {
       <div id="Contact"></div>
       <div className="Conatact">
         <div data-aos="fade-right">
-          <p className="headoff">{JsonFilee.contact.head}</p>
+          <p className="headoff" style={{paddingTop:"40px"}}>{JsonFilee.contact.head}</p>
         </div>
         <div className="text-center text-lg-start  text-black">
           <div className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -127,7 +127,7 @@ const Conatact = () => {
 
           <div className="containerr text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="comp col-md-3 col-lg-4 col-xl-2 ml-4">
+              <div className="comp col-md-3 col-lg-4 col-xl-2 ml-4" style={{marginLeft:"20px"}}>
                 <h6 className="text-uppercase fw-bold mb-4">
                   <i className="fas fa-gem me-3 text-black"></i>
                   {JsonFilee.contact.title1}
@@ -162,7 +162,7 @@ const Conatact = () => {
                   <a
                     href={JsonFilee.contact.gmail}
                     className="me-4 link-secondary text-decoration-none text-black"
-                    style={{}}
+                    
                   >
                     <i
                       className="fas fa-envelope me-3 text-black"
@@ -177,14 +177,14 @@ const Conatact = () => {
                     href={JsonFilee.contact.href}
                     className="text-black text-decoration-none"
                   >
-                    <i className="fas fa-phone me-3 text-black" />
+                    <i className="fa fa-phone me-3 text-black" />
                     {JsonFilee.contact.number}
                   </a>
                   <a
                     href={JsonFilee.contact.href2}
                     className="text-black text-decoration-none"
                   >
-                    <i className="fas fa-phone me-3 text-black" />
+                    <i className="fa fa-phone me-3 text-black" />
                     {JsonFilee.contact.number2}
                   </a>
                 </div>
@@ -262,7 +262,7 @@ const Conatact = () => {
             </div>
           </div>
         </div>
-        <div />
+        
         <ScrollToTop
           smooth
           style={{ backgroundColor: "cadetblue", borderRadius: "10px" }}

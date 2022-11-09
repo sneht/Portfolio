@@ -193,7 +193,8 @@
         height: 370px;
       }
 }
-@media screen and (max-width: 385px) {
+
+@media screen and (max-width:425px) {
   .main_card {
     margin-left: 54%;
   }

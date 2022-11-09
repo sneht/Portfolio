@@ -4,6 +4,7 @@
   height: 650px;
   background: #f6f6c9;
   font-family: 'Inter', sans-serif;
+  margin-top: -45px;
 }
 .aboutme {
   font-size: 20px;
@@ -92,9 +93,6 @@
   .Main{
     height: 770px;
    }
-  .aboutme {
-    text-align: center;
-  }
   .text_d {
     display: grid;
   }

@@ -17,7 +17,7 @@ const Experience = () => {
       <div id="Blog"></div>
       <div className="Main_blog">
         <div data-aos="fade-right" className="Welcomee">
-          <p>{JsonFilee.blog.head}</p>
+          <p style={{paddingTop:"40px"}}>{JsonFilee.blog.head}</p>
         </div>
         <div className="parantCont">
           <Swiper

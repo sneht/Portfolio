@@ -3,14 +3,14 @@
     height: 560px;
 }
 .Donut{
-    height: 400px;
-    width: 400px;
+  height: 400px;
+  width: 400px;
 }
- 
+
 */
 .Main_skills{
   background-color: #e6eff3;
-
+  height: 650px;
 }
 .Second_d{
     font-size: 40px;
@@ -22,11 +22,10 @@ html{
     
 }
 .skillss {
-    height: 575px;
     display: grid;
-    grid-gap: 5px;
+    /* grid-gap: 5px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 70px);
+    grid-template-rows: repeat(2, 70px); */
     /* margin: 20px; */
   }
  .skl{
@@ -41,30 +40,31 @@ html{
     color: greenyellow;
 }
   .ProgWidth {
-    margin: 0px 20px;
+    margin: 0px 40px;
   }
   .skillDiv {
-    height: 5px;
+    height: 7px;
     width: 100%;
     background-color: white;
   }
   .skillBar {
     display: block;
-    height: 5px;
+    height: 7px;
     background-color: cadetblue;
   }
   .p {
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     color:black
   }
 
   .htmlBar {
-    width: 70%;
+    /* width: 70%; */
     animation: html 3s 1s 1 forwards;
   }
   .cssBar {
-    width: 70%;
+    /* width: 70%; */
     animation: css 3s 1s 1 forwards;
   }
   .jsBar {
