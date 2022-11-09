@@ -8,6 +8,8 @@ import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../../font.js";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Conatact = () => {
   AOS.init();
@@ -69,11 +71,15 @@ const Conatact = () => {
           Message: message.trim(),
         })
         .then((response) => {
+          toast.success("Data Submited Successfully");
           setLoading(false);
-          console.log(response.data);
           setname("");
           setMessage("");
           setEmail("");
+        })
+        .catch((err) => {
+          toast.error(err.message);
+          setLoading(false);
         });
     }
   };
@@ -134,7 +140,7 @@ const Conatact = () => {
                   </a>
                 </p>
               </div>
-              
+
               <div className="col-md-4 col-lg-3 col-xl-3">
                 <h6 className="text-uppercase fw-bold mb-4">
                   {JsonFilee.contact.head3}
@@ -165,19 +171,28 @@ const Conatact = () => {
                   </a>
                 </p>
 
-                <div style={{display:"grid"}}> 
-                <a href={JsonFilee.contact.href} className="text-black text-decoration-none">
-                  <i className="fas fa-phone me-3 text-black"/>
+                <div style={{ display: "grid" }}>
+                  <a
+                    href={JsonFilee.contact.href}
+                    className="text-black text-decoration-none"
+                  >
+                    <i className="fas fa-phone me-3 text-black" />
                     {JsonFilee.contact.number}
-                </a>
-                <a href={JsonFilee.contact.href2} className="text-black text-decoration-none">
-                  <i className="fas fa-phone me-3 text-black"/>
+                  </a>
+                  <a
+                    href={JsonFilee.contact.href2}
+                    className="text-black text-decoration-none"
+                  >
+                    <i className="fas fa-phone me-3 text-black" />
                     {JsonFilee.contact.number2}
-                </a>
+                  </a>
                 </div>
               </div>
-              
-              <div className="containere" style={{ background: "#e6eff3", width: "55%" }}>
+
+              <div
+                className="containere"
+                style={{ background: "#e6eff3", width: "55%" }}
+              >
                 <div className="contentt">
                   <div className="right-side">
                     <div className="topic-text text-black mb-2">
@@ -231,9 +246,10 @@ const Conatact = () => {
                         <div className="error">{messageError}</div>
                         <div className="button">
                           <button type="button" onClick={submitValue}>
-                            {JsonFilee.contact.button}
-                            {loading && (
+                            {loading ? (
                               <i className="spinner-border text-primary"></i>
+                            ) : (
+                              JsonFilee.contact.button
                             )}
                           </button>
                         </div>
@@ -251,6 +267,19 @@ const Conatact = () => {
           style={{ backgroundColor: "cadetblue", borderRadius: "10px" }}
         />
       </div>
+      <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        limit={2}
+      />
     </>
   );
 };

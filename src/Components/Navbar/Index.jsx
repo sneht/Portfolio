@@ -6,7 +6,7 @@ import JsonFilee from "../../Json/data2.json";
 
 const Navbar = (props) => {
   const { payload } = props;
-  console.log(payload);
+  // console.log(payload);
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light sticky-top bg-transparent" style={{paddingBottom:"inherit"}}>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import { useNavigate } from "react-router";
 import Typewriter from "typewriter-effect";
 import JsonFilee from "../../Json/data2.json";
 
@@ -10,6 +9,7 @@ const Sign = () => {
     setShowElement(true);
     setTimeout(() => {
       setShowElement(false);
+      window.scrollTo(0, 0);
     }, 3000);
   }, []);
 

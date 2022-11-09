@@ -197,6 +197,7 @@
 
 @media screen and (max-width:1030px) {
   .row{
+    /* --bs-gutter-x: -0.5rem; */
     justify-content: center;
   }
   .comp {
