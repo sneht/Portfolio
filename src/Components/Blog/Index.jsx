@@ -128,7 +128,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>{" "}
+            </SwiperSlide>
             <SwiperSlide>
               <div className="main_card">
                 <div className="container">
@@ -164,117 +164,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>{" "}
-            {/* <SwiperSlide>
-              <div className="main_card">
-              <div className="container">
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="react">React</h2>
-                      <p className="react">{JsonFilee.blog.React}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>02</h2>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </SwiperSlide>{" "}
-            <SwiperSlide>
-              <div className="main_card">
-              <div className="container">
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="react">React</h2>
-                      <p className="react">{JsonFilee.blog.React}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>02</h2>
-                  </div>
-                </div>
-              </div>
-              </div>
-            </SwiperSlide> */}
-            {/* <SwiperSlide>
-              <div className="container">
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="react">React</h2>
-                      <p className="react">{JsonFilee.blog.React}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>02</h2>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide> */}
-            {/* <SwiperSlide>
-              <div className="container">
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="python">Python</h2>
-                      <p className="python">{JsonFilee.blog.Python}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>03</h2>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide> */}
-            {/* <SwiperSlide>
-              <div className="container">
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="cSharp">HTML</h2>
-                      <p className="cSharp">{JsonFilee.blog.HTML}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>04</h2>
-                  </div>
-                </div>
-
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="bootstrap">BootStrap</h2>
-                      <p className="bootstrap">{JsonFilee.blog.Bootstrap}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>05</h2>
-                  </div>
-                </div>
-
-                <div className="card">
-                  <div className="face face1">
-                    <div className="content">
-                      <span className="stars"></span>
-                      <h2 className="css">CSS</h2>
-                      <p className="css">{JsonFilee.blog.CSS}</p>
-                    </div>
-                  </div>
-                  <div className="face face2">
-                    <h2>06</h2>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide> */}
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

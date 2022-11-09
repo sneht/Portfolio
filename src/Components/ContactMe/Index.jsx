@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import "../../font.js";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { npointing } from "../../helper";
 
 const Conatact = () => {
   AOS.init();
@@ -65,7 +66,7 @@ const Conatact = () => {
       setLoading(true);
 
       axios
-        .post("https://6362595e7521369cd06b38a2.mockapi.io/portfolio", {
+        .post(`${npointing}`, {
           Name: name.trim(),
           Email: email.trim(),
           Message: message.trim(),
